@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+h1,
+p {
+  text-align: center;
+}
+
 body {
   display: flex;
   align-items: center;
@@ -22,7 +27,7 @@ button {
   font-family: inherit;
 }
 
-.popup-container {
+.popupContainer {
   position: fixed;
   top: 0;
   left: 0;
@@ -35,7 +40,7 @@ button {
   justify-content: center;
 }
 
-.popup-container.active {
+.popupContainer.active {
   display: flex;
 }
 
@@ -56,4 +61,11 @@ button {
   top: 2px;
   right: 2px;
   background-color: transparent;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-right: 1px solid #f00;
+  border-radius: 0 50% 50% 0;
 }
