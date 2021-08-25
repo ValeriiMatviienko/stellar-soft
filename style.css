@@ -16,6 +16,11 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   min-height: 100vh;
+  background: repeating-radial-gradient(
+    circle,
+    purple 0 10px,
+    #4b026f 10px 20px
+  );
 }
 
 button {
